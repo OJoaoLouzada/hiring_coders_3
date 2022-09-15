@@ -1,0 +1,2936 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {},
+    "prefix": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "D:\\.pnpm-store\\v3",
+    "virtualStoreDir": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/create-react-app/5.0.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "create-react-app",
+      "rawSpec": "latest"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/create-react-app/5.0.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chalk/4.1.2",
+    "wanted": {
+      "dependentId": "/create-react-app/5.0.1",
+      "name": "chalk",
+      "rawSpec": "^4.1.2"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chalk/4.1.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/commander/4.1.1",
+    "wanted": {
+      "dependentId": "/create-react-app/5.0.1",
+      "name": "commander",
+      "rawSpec": "^4.1.1"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/commander/4.1.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "10 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/chalk/4.1.2",
+    "size": 11577,
+    "status": "started"
+  },
+  "11 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/hyperquest/2.1.3",
+    "wanted": {
+      "dependentId": "/create-react-app/5.0.1",
+      "name": "hyperquest",
+      "rawSpec": "^2.1.3"
+    }
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/hyperquest/2.1.3",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "13 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/envinfo/7.8.1",
+    "wanted": {
+      "dependentId": "/create-react-app/5.0.1",
+      "name": "envinfo",
+      "rawSpec": "^7.8.1"
+    }
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/envinfo/7.8.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "15 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cross-spawn/7.0.3",
+    "wanted": {
+      "dependentId": "/create-react-app/5.0.1",
+      "name": "cross-spawn",
+      "rawSpec": "^7.0.3"
+    }
+  },
+  "16 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cross-spawn/7.0.3",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chalk/4.1.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "18 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fs-extra/10.1.0",
+    "wanted": {
+      "dependentId": "/create-react-app/5.0.1",
+      "name": "fs-extra",
+      "rawSpec": "^10.0.0"
+    }
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fs-extra/10.1.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "20 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tar-pack/3.4.1",
+    "wanted": {
+      "dependentId": "/create-react-app/5.0.1",
+      "name": "tar-pack",
+      "rawSpec": "^3.4.1"
+    }
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tar-pack/3.4.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "22 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prompts/2.4.2",
+    "wanted": {
+      "dependentId": "/create-react-app/5.0.1",
+      "name": "prompts",
+      "rawSpec": "^2.4.2"
+    }
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prompts/2.4.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "24 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/semver/7.3.7",
+    "wanted": {
+      "dependentId": "/create-react-app/5.0.1",
+      "name": "semver",
+      "rawSpec": "^7.3.5"
+    }
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/7.3.7",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "26 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tmp/0.2.1",
+    "wanted": {
+      "dependentId": "/create-react-app/5.0.1",
+      "name": "tmp",
+      "rawSpec": "^0.2.1"
+    }
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tmp/0.2.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "28 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/commander/4.1.1",
+    "size": 27190,
+    "status": "started"
+  },
+  "29 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/envinfo/7.8.1",
+    "size": 50536,
+    "status": "started"
+  },
+  "30 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/hyperquest/2.1.3",
+    "size": 6465,
+    "status": "started"
+  },
+  "31 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/validate-npm-package-name/3.0.0",
+    "wanted": {
+      "dependentId": "/create-react-app/5.0.1",
+      "name": "validate-npm-package-name",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/validate-npm-package-name/3.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "33 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/prompts/2.4.2",
+    "size": 32679,
+    "status": "started"
+  },
+  "34 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/tmp/0.2.1",
+    "size": 13993,
+    "status": "started"
+  },
+  "35 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/fs-extra/10.1.0",
+    "size": 16920,
+    "status": "started"
+  },
+  "36 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/tar-pack/3.4.1",
+    "size": 6260,
+    "status": "started"
+  },
+  "37 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/cross-spawn/7.0.3",
+    "size": 7477,
+    "status": "started"
+  },
+  "38 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/commander/4.1.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "39 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ansi-styles/4.3.0",
+    "wanted": {
+      "dependentId": "/chalk/4.1.2",
+      "name": "ansi-styles",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "40 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-styles/4.3.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "41 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/supports-color/7.2.0",
+    "wanted": {
+      "dependentId": "/chalk/4.1.2",
+      "name": "supports-color",
+      "rawSpec": "^7.1.0"
+    }
+  },
+  "42 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/supports-color/7.2.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "43 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/buffer-from/0.1.2",
+    "wanted": {
+      "dependentId": "/hyperquest/2.1.3",
+      "name": "buffer-from",
+      "rawSpec": "^0.1.1"
+    }
+  },
+  "44 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/buffer-from/0.1.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "45 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/through2/0.6.5",
+    "wanted": {
+      "dependentId": "/hyperquest/2.1.3",
+      "name": "through2",
+      "rawSpec": "~0.6.3"
+    }
+  },
+  "46 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/through2/0.6.5",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "47 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/duplexer2/0.0.2",
+    "wanted": {
+      "dependentId": "/hyperquest/2.1.3",
+      "name": "duplexer2",
+      "rawSpec": "~0.0.2"
+    }
+  },
+  "48 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/duplexer2/0.0.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "49 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/semver/7.3.7",
+    "size": 25007,
+    "status": "started"
+  },
+  "50 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/hyperquest/2.1.3",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "51 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/create-react-app/5.0.1",
+    "size": 11783,
+    "status": "started"
+  },
+  "52 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cross-spawn/7.0.3",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "53 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fs-extra/10.1.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "54 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tar-pack/3.4.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "55 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/path-key/3.1.1",
+    "wanted": {
+      "dependentId": "/cross-spawn/7.0.3",
+      "name": "path-key",
+      "rawSpec": "^3.1.0"
+    }
+  },
+  "56 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path-key/3.1.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "57 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/graceful-fs/4.2.10",
+    "wanted": {
+      "dependentId": "/fs-extra/10.1.0",
+      "name": "graceful-fs",
+      "rawSpec": "^4.2.0"
+    }
+  },
+  "58 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/graceful-fs/4.2.10",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "59 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/validate-npm-package-name/3.0.0",
+    "size": 5371,
+    "status": "started"
+  },
+  "60 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/universalify/2.0.0",
+    "wanted": {
+      "dependentId": "/fs-extra/10.1.0",
+      "name": "universalify",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "61 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/universalify/2.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "62 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/shebang-command/2.0.0",
+    "wanted": {
+      "dependentId": "/cross-spawn/7.0.3",
+      "name": "shebang-command",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "63 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/shebang-command/2.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "64 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/ansi-styles/4.3.0",
+    "size": 5849,
+    "status": "started"
+  },
+  "65 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tmp/0.2.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "66 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/supports-color/7.2.0",
+    "size": 3210,
+    "status": "started"
+  },
+  "67 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/envinfo/7.8.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "68 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/2.6.9",
+    "wanted": {
+      "dependentId": "/tar-pack/3.4.1",
+      "name": "debug",
+      "rawSpec": "^2.2.0"
+    }
+  },
+  "69 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/2.6.9",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "70 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/duplexer2/0.0.2",
+    "size": 3484,
+    "status": "started"
+  },
+  "71 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/once/1.4.0",
+    "wanted": {
+      "dependentId": "/tar-pack/3.4.1",
+      "name": "once",
+      "rawSpec": "^1.3.3"
+    }
+  },
+  "72 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/once/1.4.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "73 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/graceful-fs/4.2.10",
+    "size": 9770,
+    "status": "started"
+  },
+  "74 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/buffer-from/0.1.2",
+    "size": 1726,
+    "status": "started"
+  },
+  "75 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/universalify/2.0.0",
+    "size": 2067,
+    "status": "started"
+  },
+  "76 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/jsonfile/6.1.0",
+    "wanted": {
+      "dependentId": "/fs-extra/10.1.0",
+      "name": "jsonfile",
+      "rawSpec": "^6.0.1"
+    }
+  },
+  "77 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/jsonfile/6.1.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "78 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/readable-stream/2.3.7",
+    "wanted": {
+      "dependentId": "/tar-pack/3.4.1",
+      "name": "readable-stream",
+      "rawSpec": "^2.1.4"
+    }
+  },
+  "79 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/readable-stream/2.3.7",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "80 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fstream/1.0.12",
+    "wanted": {
+      "dependentId": "/tar-pack/3.4.1",
+      "name": "fstream",
+      "rawSpec": "^1.0.10"
+    }
+  },
+  "81 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fstream/1.0.12",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "82 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fstream-ignore/1.0.5",
+    "wanted": {
+      "dependentId": "/tar-pack/3.4.1",
+      "name": "fstream-ignore",
+      "rawSpec": "^1.0.5"
+    }
+  },
+  "83 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fstream-ignore/1.0.5",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "84 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prompts/2.4.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "85 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/which/2.0.2",
+    "wanted": {
+      "dependentId": "/cross-spawn/7.0.3",
+      "name": "which",
+      "rawSpec": "^2.0.1"
+    }
+  },
+  "86 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/which/2.0.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "87 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/supports-color/7.2.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "88 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/validate-npm-package-name/3.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "89 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/create-react-app/5.0.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "90 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tar/2.2.2",
+    "wanted": {
+      "dependentId": "/tar-pack/3.4.1",
+      "name": "tar",
+      "rawSpec": "^2.2.1"
+    }
+  },
+  "91 debug pnpm:deprecation": {
+    "deprecated": "This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.",
+    "depth": 2,
+    "pkgId": "registry.npmjs.org/tar/2.2.2",
+    "pkgName": "tar",
+    "pkgVersion": "2.2.2",
+    "prefix": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108"
+  },
+  "92 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tar/2.2.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "93 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-styles/4.3.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "94 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/7.3.7",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "95 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/path-key/3.1.1",
+    "size": 2258,
+    "status": "started"
+  },
+  "96 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/duplexer2/0.0.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "97 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/universalify/2.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "98 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/buffer-from/0.1.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "99 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/graceful-fs/4.2.10",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "100 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path-key/3.1.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "101 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/kleur/3.0.3",
+    "wanted": {
+      "dependentId": "/prompts/2.4.2",
+      "name": "kleur",
+      "rawSpec": "^3.0.3"
+    }
+  },
+  "102 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/kleur/3.0.3",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "103 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/lru-cache/6.0.0",
+    "wanted": {
+      "dependentId": "/semver/7.3.7",
+      "name": "lru-cache",
+      "rawSpec": "^6.0.0"
+    }
+  },
+  "104 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lru-cache/6.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "105 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/rimraf/2.7.1",
+    "wanted": {
+      "dependentId": "/tar-pack/3.4.1",
+      "name": "rimraf",
+      "rawSpec": "^2.5.1"
+    }
+  },
+  "106 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/rimraf/3.0.2",
+    "wanted": {
+      "dependentId": "/tmp/0.2.1",
+      "name": "rimraf",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "107 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/rimraf/2.7.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "108 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/rimraf/3.0.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "109 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/readable-stream/1.0.34",
+    "wanted": {
+      "dependentId": "/through2/0.6.5",
+      "name": "readable-stream",
+      "rawSpec": ">=1.0.33-1 <1.1.0-0"
+    }
+  },
+  "110 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/readable-stream/1.0.34",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "111 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/readable-stream/1.1.14",
+    "wanted": {
+      "dependentId": "/duplexer2/0.0.2",
+      "name": "readable-stream",
+      "rawSpec": "~1.1.9"
+    }
+  },
+  "112 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/readable-stream/1.1.14",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "113 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/graceful-fs/4.2.10",
+    "wanted": {
+      "dependentId": "/jsonfile/6.1.0",
+      "name": "graceful-fs",
+      "rawSpec": "^4.1.6"
+    }
+  },
+  "114 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/universalify/2.0.0",
+    "wanted": {
+      "dependentId": "/jsonfile/6.1.0",
+      "name": "universalify",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "115 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/uid-number/0.0.6",
+    "wanted": {
+      "dependentId": "/tar-pack/3.4.1",
+      "name": "uid-number",
+      "rawSpec": "^0.0.6"
+    }
+  },
+  "116 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/uid-number/0.0.6",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "117 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/builtins/1.0.3",
+    "wanted": {
+      "dependentId": "/validate-npm-package-name/3.0.0",
+      "name": "builtins",
+      "rawSpec": "^1.0.3"
+    }
+  },
+  "118 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/builtins/1.0.3",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "119 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/jsonfile/6.1.0",
+    "size": 5816,
+    "status": "started"
+  },
+  "120 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/jsonfile/6.1.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "121 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/readable-stream/2.3.7",
+    "size": 25689,
+    "status": "started"
+  },
+  "122 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/tar/2.2.2",
+    "size": 216660,
+    "status": "started"
+  },
+  "123 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/debug/2.6.9",
+    "size": 16514,
+    "status": "started"
+  },
+  "124 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/shebang-command/2.0.0",
+    "size": 1506,
+    "status": "started"
+  },
+  "125 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/kleur/3.0.3",
+    "size": 4292,
+    "status": "started"
+  },
+  "126 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/which/2.0.2",
+    "size": 4496,
+    "status": "started"
+  },
+  "127 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/fstream-ignore/1.0.5",
+    "size": 3902,
+    "status": "started"
+  },
+  "128 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/lru-cache/6.0.0",
+    "size": 5788,
+    "status": "started"
+  },
+  "129 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/readable-stream/2.3.7",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "130 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/shebang-regex/3.0.0",
+    "wanted": {
+      "dependentId": "/shebang-command/2.0.0",
+      "name": "shebang-regex",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "131 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/shebang-regex/3.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "132 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/xtend/4.0.2",
+    "wanted": {
+      "dependentId": "/through2/0.6.5",
+      "name": "xtend",
+      "rawSpec": ">=4.0.0 <4.1.0-0"
+    }
+  },
+  "133 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/xtend/4.0.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "134 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/shebang-command/2.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "135 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/has-flag/4.0.0",
+    "wanted": {
+      "dependentId": "/supports-color/7.2.0",
+      "name": "has-flag",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "136 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-flag/4.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "137 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/kleur/3.0.3",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "138 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/rimraf/3.0.2",
+    "size": 6480,
+    "status": "started"
+  },
+  "139 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/fstream/1.0.12",
+    "size": 17009,
+    "status": "started"
+  },
+  "140 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/which/2.0.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "141 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fstream-ignore/1.0.5",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "142 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lru-cache/6.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "143 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/rimraf/3.0.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "144 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/2.6.9",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "145 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fstream/1.0.12",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "146 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/readable-stream/1.0.34",
+    "size": 15447,
+    "status": "started"
+  },
+  "147 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/isexe/2.0.0",
+    "wanted": {
+      "dependentId": "/which/2.0.2",
+      "name": "isexe",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "148 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/isexe/2.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "149 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/uid-number/0.0.6",
+    "size": 2045,
+    "status": "started"
+  },
+  "150 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/builtins/1.0.3",
+    "size": 1629,
+    "status": "started"
+  },
+  "151 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/glob/7.2.3",
+    "wanted": {
+      "dependentId": "/rimraf/3.0.2",
+      "name": "glob",
+      "rawSpec": "^7.1.3"
+    }
+  },
+  "152 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/glob/7.2.3",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "153 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/shebang-regex/3.0.0",
+    "size": 1503,
+    "status": "started"
+  },
+  "154 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/yallist/4.0.0",
+    "wanted": {
+      "dependentId": "/lru-cache/6.0.0",
+      "name": "yallist",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "155 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/yallist/4.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "156 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/has-flag/4.0.0",
+    "size": 2206,
+    "status": "started"
+  },
+  "157 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/wrappy/1.0.2",
+    "wanted": {
+      "dependentId": "/once/1.4.0",
+      "name": "wrappy",
+      "rawSpec": "1"
+    }
+  },
+  "158 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/wrappy/1.0.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "159 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/uid-number/0.0.6",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "160 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/readable-stream/1.0.34",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "161 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/shebang-regex/3.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "162 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/builtins/1.0.3",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "163 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-flag/4.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "164 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ms/2.0.0",
+    "wanted": {
+      "dependentId": "/debug/2.6.9",
+      "name": "ms",
+      "rawSpec": "2.0.0"
+    }
+  },
+  "165 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ms/2.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "166 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/isexe/2.0.0",
+    "size": 3756,
+    "status": "started"
+  },
+  "167 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/core-util-is/1.0.3",
+    "wanted": {
+      "dependentId": "/readable-stream/2.3.7",
+      "name": "core-util-is",
+      "rawSpec": "~1.0.0"
+    }
+  },
+  "168 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/core-util-is/1.0.3",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "169 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/isexe/2.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "170 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tar/2.2.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "171 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/xtend/4.0.2",
+    "size": 2529,
+    "status": "started"
+  },
+  "172 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/once/1.4.0",
+    "size": 1979,
+    "status": "started"
+  },
+  "173 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/inherits/2.0.4",
+    "wanted": {
+      "dependentId": "/readable-stream/2.3.7",
+      "name": "inherits",
+      "rawSpec": "~2.0.3"
+    }
+  },
+  "174 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/inherits/2.0.4",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "175 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/graceful-fs/4.2.10",
+    "wanted": {
+      "dependentId": "/fstream/1.0.12",
+      "name": "graceful-fs",
+      "rawSpec": "^4.1.2"
+    }
+  },
+  "176 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/inherits/2.0.4",
+    "wanted": {
+      "dependentId": "/fstream/1.0.12",
+      "name": "inherits",
+      "rawSpec": "~2.0.0"
+    }
+  },
+  "177 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/rimraf/2.7.1",
+    "wanted": {
+      "dependentId": "/fstream/1.0.12",
+      "name": "rimraf",
+      "rawSpec": "2"
+    }
+  },
+  "178 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fstream/1.0.12",
+    "wanted": {
+      "dependentId": "/fstream-ignore/1.0.5",
+      "name": "fstream",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "179 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/inherits/2.0.4",
+    "wanted": {
+      "dependentId": "/fstream-ignore/1.0.5",
+      "name": "inherits",
+      "rawSpec": "2"
+    }
+  },
+  "180 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/isarray/1.0.0",
+    "wanted": {
+      "dependentId": "/readable-stream/2.3.7",
+      "name": "isarray",
+      "rawSpec": "~1.0.0"
+    }
+  },
+  "181 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/isarray/1.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "182 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/once/1.4.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "183 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/xtend/4.0.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "184 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/process-nextick-args/2.0.1",
+    "wanted": {
+      "dependentId": "/readable-stream/2.3.7",
+      "name": "process-nextick-args",
+      "rawSpec": "~2.0.0"
+    }
+  },
+  "185 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/process-nextick-args/2.0.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "186 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fstream/1.0.12",
+    "wanted": {
+      "dependentId": "/tar/2.2.2",
+      "name": "fstream",
+      "rawSpec": "^1.0.12"
+    }
+  },
+  "187 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/inherits/2.0.4",
+    "wanted": {
+      "dependentId": "/tar/2.2.2",
+      "name": "inherits",
+      "rawSpec": "2"
+    }
+  },
+  "188 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/glob/7.2.3",
+    "wanted": {
+      "dependentId": "/rimraf/2.7.1",
+      "name": "glob",
+      "rawSpec": "^7.1.3"
+    }
+  },
+  "189 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/core-util-is/1.0.3",
+    "wanted": {
+      "dependentId": "/readable-stream/1.1.14",
+      "name": "core-util-is",
+      "rawSpec": "~1.0.0"
+    }
+  },
+  "190 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/isarray/0.0.1",
+    "wanted": {
+      "dependentId": "/readable-stream/1.1.14",
+      "name": "isarray",
+      "rawSpec": "0.0.1"
+    }
+  },
+  "191 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/isarray/0.0.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "192 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/glob/7.2.3",
+    "size": 15444,
+    "status": "started"
+  },
+  "193 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/glob/7.2.3",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "194 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/safe-buffer/5.1.2",
+    "wanted": {
+      "dependentId": "/readable-stream/2.3.7",
+      "name": "safe-buffer",
+      "rawSpec": "~5.1.1"
+    }
+  },
+  "195 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/safe-buffer/5.1.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "196 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/wrappy/1.0.2",
+    "size": 1676,
+    "status": "started"
+  },
+  "197 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/ms/2.0.0",
+    "size": 2874,
+    "status": "started"
+  },
+  "198 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/inherits/2.0.4",
+    "wanted": {
+      "dependentId": "/readable-stream/1.1.14",
+      "name": "inherits",
+      "rawSpec": "~2.0.1"
+    }
+  },
+  "199 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/core-util-is/1.0.3",
+    "wanted": {
+      "dependentId": "/readable-stream/1.0.34",
+      "name": "core-util-is",
+      "rawSpec": "~1.0.0"
+    }
+  },
+  "200 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/isarray/0.0.1",
+    "wanted": {
+      "dependentId": "/readable-stream/1.0.34",
+      "name": "isarray",
+      "rawSpec": "0.0.1"
+    }
+  },
+  "201 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/core-util-is/1.0.3",
+    "size": 1897,
+    "status": "started"
+  },
+  "202 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/inherits/2.0.4",
+    "wanted": {
+      "dependentId": "/readable-stream/1.0.34",
+      "name": "inherits",
+      "rawSpec": "~2.0.1"
+    }
+  },
+  "203 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/wrappy/1.0.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "204 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ms/2.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "205 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/core-util-is/1.0.3",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "206 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/color-convert/2.0.1",
+    "wanted": {
+      "dependentId": "/ansi-styles/4.3.0",
+      "name": "color-convert",
+      "rawSpec": "^2.0.1"
+    }
+  },
+  "207 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/color-convert/2.0.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "208 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mkdirp/0.5.6",
+    "wanted": {
+      "dependentId": "/fstream/1.0.12",
+      "name": "mkdirp",
+      "rawSpec": ">=0.5 0"
+    }
+  },
+  "209 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mkdirp/0.5.6",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "210 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/minimatch/3.1.2",
+    "wanted": {
+      "dependentId": "/fstream-ignore/1.0.5",
+      "name": "minimatch",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "211 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minimatch/3.1.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "212 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/yallist/4.0.0",
+    "size": 4494,
+    "status": "started"
+  },
+  "213 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/string_decoder/1.1.1",
+    "wanted": {
+      "dependentId": "/readable-stream/2.3.7",
+      "name": "string_decoder",
+      "rawSpec": "~1.1.1"
+    }
+  },
+  "214 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/string_decoder/0.10.31",
+    "wanted": {
+      "dependentId": "/readable-stream/1.1.14",
+      "name": "string_decoder",
+      "rawSpec": "~0.10.x"
+    }
+  },
+  "215 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/string_decoder/0.10.31",
+    "wanted": {
+      "dependentId": "/readable-stream/1.0.34",
+      "name": "string_decoder",
+      "rawSpec": "~0.10.x"
+    }
+  },
+  "216 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/string_decoder/1.1.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "217 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/string_decoder/0.10.31",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "218 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/inherits/2.0.4",
+    "wanted": {
+      "dependentId": "/glob/7.2.3",
+      "name": "inherits",
+      "rawSpec": "2"
+    }
+  },
+  "219 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/minimatch/3.1.2",
+    "wanted": {
+      "dependentId": "/glob/7.2.3",
+      "name": "minimatch",
+      "rawSpec": "^3.1.1"
+    }
+  },
+  "220 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/once/1.4.0",
+    "wanted": {
+      "dependentId": "/glob/7.2.3",
+      "name": "once",
+      "rawSpec": "^1.3.0"
+    }
+  },
+  "221 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/util-deprecate/1.0.2",
+    "wanted": {
+      "dependentId": "/readable-stream/2.3.7",
+      "name": "util-deprecate",
+      "rawSpec": "~1.0.1"
+    }
+  },
+  "222 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/util-deprecate/1.0.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "223 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/yallist/4.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "224 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/process-nextick-args/2.0.1",
+    "size": 1654,
+    "status": "started"
+  },
+  "225 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/inherits/2.0.4",
+    "size": 2030,
+    "status": "started"
+  },
+  "226 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/readable-stream/1.1.14",
+    "size": 20630,
+    "status": "started"
+  },
+  "227 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/process-nextick-args/2.0.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "228 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/inherits/2.0.4",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "229 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/readable-stream/1.1.14",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "230 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/isarray/0.0.1",
+    "size": 2742,
+    "status": "started"
+  },
+  "231 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/safe-buffer/5.1.2",
+    "wanted": {
+      "dependentId": "/string_decoder/1.1.1",
+      "name": "safe-buffer",
+      "rawSpec": "~5.1.0"
+    }
+  },
+  "232 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/isarray/0.0.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "233 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fs.realpath/1.0.0",
+    "wanted": {
+      "dependentId": "/glob/7.2.3",
+      "name": "fs.realpath",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "234 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fs.realpath/1.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "235 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/color-convert/2.0.1",
+    "size": 8996,
+    "status": "started"
+  },
+  "236 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/safe-buffer/5.1.2",
+    "size": 9822,
+    "status": "started"
+  },
+  "237 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/inflight/1.0.6",
+    "wanted": {
+      "dependentId": "/glob/7.2.3",
+      "name": "inflight",
+      "rawSpec": "^1.0.4"
+    }
+  },
+  "238 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/inflight/1.0.6",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "239 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/mkdirp/0.5.6",
+    "size": 3018,
+    "status": "started"
+  },
+  "240 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/color-convert/2.0.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "241 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/safe-buffer/5.1.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "242 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mkdirp/0.5.6",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "243 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/color-name/1.1.4",
+    "wanted": {
+      "dependentId": "/color-convert/2.0.1",
+      "name": "color-name",
+      "rawSpec": "~1.1.4"
+    }
+  },
+  "244 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/color-name/1.1.4",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "245 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/string_decoder/0.10.31",
+    "size": 3608,
+    "status": "started"
+  },
+  "246 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/brace-expansion/1.1.11",
+    "wanted": {
+      "dependentId": "/minimatch/3.1.2",
+      "name": "brace-expansion",
+      "rawSpec": "^1.1.7"
+    }
+  },
+  "247 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/brace-expansion/1.1.11",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "248 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/string_decoder/1.1.1",
+    "size": 4831,
+    "status": "started"
+  },
+  "249 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/minimist/1.2.6",
+    "wanted": {
+      "dependentId": "/mkdirp/0.5.6",
+      "name": "minimist",
+      "rawSpec": "^1.2.6"
+    }
+  },
+  "250 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minimist/1.2.6",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "251 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/util-deprecate/1.0.2",
+    "size": 2246,
+    "status": "started"
+  },
+  "252 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/rimraf/2.7.1",
+    "size": 5662,
+    "status": "started"
+  },
+  "253 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/string_decoder/0.10.31",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "254 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/string_decoder/1.1.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "255 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/util-deprecate/1.0.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "256 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/rimraf/2.7.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "257 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/minimatch/3.1.2",
+    "size": 11940,
+    "status": "started"
+  },
+  "258 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/through2/0.6.5",
+    "size": 4380,
+    "status": "started"
+  },
+  "259 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/fs.realpath/1.0.0",
+    "size": 4434,
+    "status": "started"
+  },
+  "260 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/isarray/1.0.0",
+    "size": 2021,
+    "status": "started"
+  },
+  "261 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/color-name/1.1.4",
+    "size": 2868,
+    "status": "started"
+  },
+  "262 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/brace-expansion/1.1.11",
+    "size": 4239,
+    "status": "started"
+  },
+  "263 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/balanced-match/1.0.2",
+    "wanted": {
+      "dependentId": "/brace-expansion/1.1.11",
+      "name": "balanced-match",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "264 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/balanced-match/1.0.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "265 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/inflight/1.0.6",
+    "size": 2041,
+    "status": "started"
+  },
+  "266 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/path-is-absolute/1.0.1",
+    "wanted": {
+      "dependentId": "/glob/7.2.3",
+      "name": "path-is-absolute",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "267 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path-is-absolute/1.0.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "268 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/once/1.4.0",
+    "wanted": {
+      "dependentId": "/inflight/1.0.6",
+      "name": "once",
+      "rawSpec": "^1.3.0"
+    }
+  },
+  "269 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/wrappy/1.0.2",
+    "wanted": {
+      "dependentId": "/inflight/1.0.6",
+      "name": "wrappy",
+      "rawSpec": "1"
+    }
+  },
+  "270 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/block-stream/0.0.9",
+    "wanted": {
+      "dependentId": "/tar/2.2.2",
+      "name": "block-stream",
+      "rawSpec": "*"
+    }
+  },
+  "271 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/block-stream/0.0.9",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "272 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/inherits/2.0.4",
+    "wanted": {
+      "dependentId": "/block-stream/0.0.9",
+      "name": "inherits",
+      "rawSpec": "~2.0.0"
+    }
+  },
+  "273 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minimatch/3.1.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "274 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/isarray/1.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "275 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fs.realpath/1.0.0",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "276 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/brace-expansion/1.1.11",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "277 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/inflight/1.0.6",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "278 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/through2/0.6.5",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "279 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/color-name/1.1.4",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "280 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/concat-map/0.0.1",
+    "wanted": {
+      "dependentId": "/brace-expansion/1.1.11",
+      "name": "concat-map",
+      "rawSpec": "0.0.1"
+    }
+  },
+  "281 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/concat-map/0.0.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "282 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/minimist/1.2.6",
+    "size": 8363,
+    "status": "started"
+  },
+  "283 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minimist/1.2.6",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "284 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/path-is-absolute/1.0.1",
+    "size": 1882,
+    "status": "started"
+  },
+  "285 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/concat-map/0.0.1",
+    "size": 2263,
+    "status": "started"
+  },
+  "286 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path-is-absolute/1.0.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "287 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/concat-map/0.0.1",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "288 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/balanced-match/1.0.2",
+    "size": 2668,
+    "status": "started"
+  },
+  "289 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/balanced-match/1.0.2",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "290 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/block-stream/0.0.9",
+    "size": 3729,
+    "status": "started"
+  },
+  "291 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/block-stream/0.0.9",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "292 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/sisteransi/1.0.5",
+    "wanted": {
+      "dependentId": "/prompts/2.4.2",
+      "name": "sisteransi",
+      "rawSpec": "^1.0.5"
+    }
+  },
+  "293 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/sisteransi/1.0.5",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "resolved"
+  },
+  "294 debug pnpm:package-manifest": {
+    "prefix": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "updated": {
+      "dependencies": {
+        "create-react-app": "^5.0.1"
+      }
+    }
+  },
+  "295 debug pnpm:package-manifest": {
+    "prefix": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "updated": {
+      "dependencies": {
+        "create-react-app": "^5.0.1"
+      }
+    }
+  },
+  "296 debug pnpm:stage": {
+    "prefix": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "stage": "resolution_done"
+  },
+  "297 debug pnpm:stats": {
+    "prefix": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "removed": 0
+  },
+  "298 debug pnpm:stage": {
+    "prefix": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "stage": "importing_started"
+  },
+  "299 debug pnpm:stats": {
+    "added": 67,
+    "prefix": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108"
+  },
+  "300 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\chalk@4.1.2\\node_modules\\chalk",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\create-react-app@5.0.1\\node_modules\\chalk"
+  },
+  "301 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\commander@4.1.1\\node_modules\\commander",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\create-react-app@5.0.1\\node_modules\\commander"
+  },
+  "302 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\cross-spawn@7.0.3\\node_modules\\cross-spawn",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\create-react-app@5.0.1\\node_modules\\cross-spawn"
+  },
+  "303 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\envinfo@7.8.1\\node_modules\\envinfo",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\create-react-app@5.0.1\\node_modules\\envinfo"
+  },
+  "304 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fs-extra@10.1.0\\node_modules\\fs-extra",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\create-react-app@5.0.1\\node_modules\\fs-extra"
+  },
+  "305 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\hyperquest@2.1.3\\node_modules\\hyperquest",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\create-react-app@5.0.1\\node_modules\\hyperquest"
+  },
+  "306 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\prompts@2.4.2\\node_modules\\prompts",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\create-react-app@5.0.1\\node_modules\\prompts"
+  },
+  "307 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\semver@7.3.7\\node_modules\\semver",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\create-react-app@5.0.1\\node_modules\\semver"
+  },
+  "308 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar-pack@3.4.1\\node_modules\\tar-pack",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\create-react-app@5.0.1\\node_modules\\tar-pack"
+  },
+  "309 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tmp@0.2.1\\node_modules\\tmp",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\create-react-app@5.0.1\\node_modules\\tmp"
+  },
+  "310 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\validate-npm-package-name@3.0.0\\node_modules\\validate-npm-package-name",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\create-react-app@5.0.1\\node_modules\\validate-npm-package-name"
+  },
+  "311 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\ansi-styles@4.3.0\\node_modules\\ansi-styles",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\chalk@4.1.2\\node_modules\\ansi-styles"
+  },
+  "312 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\supports-color@7.2.0\\node_modules\\supports-color",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\chalk@4.1.2\\node_modules\\supports-color"
+  },
+  "313 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\color-convert@2.0.1\\node_modules\\color-convert",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\ansi-styles@4.3.0\\node_modules\\color-convert"
+  },
+  "314 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\color-name@1.1.4\\node_modules\\color-name",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\color-convert@2.0.1\\node_modules\\color-name"
+  },
+  "315 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\has-flag@4.0.0\\node_modules\\has-flag",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\supports-color@7.2.0\\node_modules\\has-flag"
+  },
+  "316 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\path-key@3.1.1\\node_modules\\path-key",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\cross-spawn@7.0.3\\node_modules\\path-key"
+  },
+  "317 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\shebang-command@2.0.0\\node_modules\\shebang-command",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\cross-spawn@7.0.3\\node_modules\\shebang-command"
+  },
+  "318 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\which@2.0.2\\node_modules\\which",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\cross-spawn@7.0.3\\node_modules\\which"
+  },
+  "319 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\shebang-regex@3.0.0\\node_modules\\shebang-regex",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\shebang-command@2.0.0\\node_modules\\shebang-regex"
+  },
+  "320 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\isexe@2.0.0\\node_modules\\isexe",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\which@2.0.2\\node_modules\\isexe"
+  },
+  "321 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\graceful-fs@4.2.10\\node_modules\\graceful-fs",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fs-extra@10.1.0\\node_modules\\graceful-fs"
+  },
+  "322 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\jsonfile@6.1.0\\node_modules\\jsonfile",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fs-extra@10.1.0\\node_modules\\jsonfile"
+  },
+  "323 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\universalify@2.0.0\\node_modules\\universalify",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fs-extra@10.1.0\\node_modules\\universalify"
+  },
+  "324 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\graceful-fs@4.2.10\\node_modules\\graceful-fs",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\jsonfile@6.1.0\\node_modules\\graceful-fs"
+  },
+  "325 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\universalify@2.0.0\\node_modules\\universalify",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\jsonfile@6.1.0\\node_modules\\universalify"
+  },
+  "326 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\buffer-from@0.1.2\\node_modules\\buffer-from",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\hyperquest@2.1.3\\node_modules\\buffer-from"
+  },
+  "327 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\duplexer2@0.0.2\\node_modules\\duplexer2",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\hyperquest@2.1.3\\node_modules\\duplexer2"
+  },
+  "328 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\through2@0.6.5\\node_modules\\through2",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\hyperquest@2.1.3\\node_modules\\through2"
+  },
+  "329 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@1.1.14\\node_modules\\readable-stream",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\duplexer2@0.0.2\\node_modules\\readable-stream"
+  },
+  "330 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\core-util-is@1.0.3\\node_modules\\core-util-is",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@1.1.14\\node_modules\\core-util-is"
+  },
+  "331 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\isarray@0.0.1\\node_modules\\isarray",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@1.1.14\\node_modules\\isarray"
+  },
+  "332 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\string_decoder@0.10.31\\node_modules\\string_decoder",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@1.1.14\\node_modules\\string_decoder"
+  },
+  "333 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inherits@2.0.4\\node_modules\\inherits",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@1.1.14\\node_modules\\inherits"
+  },
+  "334 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@1.0.34\\node_modules\\readable-stream",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\through2@0.6.5\\node_modules\\readable-stream"
+  },
+  "335 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\xtend@4.0.2\\node_modules\\xtend",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\through2@0.6.5\\node_modules\\xtend"
+  },
+  "336 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\core-util-is@1.0.3\\node_modules\\core-util-is",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@1.0.34\\node_modules\\core-util-is"
+  },
+  "337 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\isarray@0.0.1\\node_modules\\isarray",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@1.0.34\\node_modules\\isarray"
+  },
+  "338 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\string_decoder@0.10.31\\node_modules\\string_decoder",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@1.0.34\\node_modules\\string_decoder"
+  },
+  "339 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inherits@2.0.4\\node_modules\\inherits",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@1.0.34\\node_modules\\inherits"
+  },
+  "340 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\kleur@3.0.3\\node_modules\\kleur",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\prompts@2.4.2\\node_modules\\kleur"
+  },
+  "341 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\sisteransi@1.0.5\\node_modules\\sisteransi",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\prompts@2.4.2\\node_modules\\sisteransi"
+  },
+  "342 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\lru-cache@6.0.0\\node_modules\\lru-cache",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\semver@7.3.7\\node_modules\\lru-cache"
+  },
+  "343 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\yallist@4.0.0\\node_modules\\yallist",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\lru-cache@6.0.0\\node_modules\\yallist"
+  },
+  "344 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\debug@2.6.9\\node_modules\\debug",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar-pack@3.4.1\\node_modules\\debug"
+  },
+  "345 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream@1.0.12\\node_modules\\fstream",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar-pack@3.4.1\\node_modules\\fstream"
+  },
+  "346 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream-ignore@1.0.5\\node_modules\\fstream-ignore",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar-pack@3.4.1\\node_modules\\fstream-ignore"
+  },
+  "347 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\once@1.4.0\\node_modules\\once",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar-pack@3.4.1\\node_modules\\once"
+  },
+  "348 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@2.3.7\\node_modules\\readable-stream",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar-pack@3.4.1\\node_modules\\readable-stream"
+  },
+  "349 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\rimraf@2.7.1\\node_modules\\rimraf",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar-pack@3.4.1\\node_modules\\rimraf"
+  },
+  "350 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar@2.2.2\\node_modules\\tar",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar-pack@3.4.1\\node_modules\\tar"
+  },
+  "351 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\uid-number@0.0.6\\node_modules\\uid-number",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar-pack@3.4.1\\node_modules\\uid-number"
+  },
+  "352 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\ms@2.0.0\\node_modules\\ms",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\debug@2.6.9\\node_modules\\ms"
+  },
+  "353 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\graceful-fs@4.2.10\\node_modules\\graceful-fs",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream@1.0.12\\node_modules\\graceful-fs"
+  },
+  "354 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inherits@2.0.4\\node_modules\\inherits",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream@1.0.12\\node_modules\\inherits"
+  },
+  "355 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\mkdirp@0.5.6\\node_modules\\mkdirp",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream@1.0.12\\node_modules\\mkdirp"
+  },
+  "356 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\rimraf@2.7.1\\node_modules\\rimraf",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream@1.0.12\\node_modules\\rimraf"
+  },
+  "357 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\minimist@1.2.6\\node_modules\\minimist",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\mkdirp@0.5.6\\node_modules\\minimist"
+  },
+  "358 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream@1.0.12\\node_modules\\fstream",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream-ignore@1.0.5\\node_modules\\fstream"
+  },
+  "359 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inherits@2.0.4\\node_modules\\inherits",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream-ignore@1.0.5\\node_modules\\inherits"
+  },
+  "360 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\minimatch@3.1.2\\node_modules\\minimatch",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream-ignore@1.0.5\\node_modules\\minimatch"
+  },
+  "361 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\brace-expansion@1.1.11\\node_modules\\brace-expansion",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\minimatch@3.1.2\\node_modules\\brace-expansion"
+  },
+  "362 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\balanced-match@1.0.2\\node_modules\\balanced-match",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\brace-expansion@1.1.11\\node_modules\\balanced-match"
+  },
+  "363 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\concat-map@0.0.1\\node_modules\\concat-map",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\brace-expansion@1.1.11\\node_modules\\concat-map"
+  },
+  "364 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\wrappy@1.0.2\\node_modules\\wrappy",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\once@1.4.0\\node_modules\\wrappy"
+  },
+  "365 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\core-util-is@1.0.3\\node_modules\\core-util-is",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@2.3.7\\node_modules\\core-util-is"
+  },
+  "366 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inherits@2.0.4\\node_modules\\inherits",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@2.3.7\\node_modules\\inherits"
+  },
+  "367 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\isarray@1.0.0\\node_modules\\isarray",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@2.3.7\\node_modules\\isarray"
+  },
+  "368 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\process-nextick-args@2.0.1\\node_modules\\process-nextick-args",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@2.3.7\\node_modules\\process-nextick-args"
+  },
+  "369 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\safe-buffer@5.1.2\\node_modules\\safe-buffer",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@2.3.7\\node_modules\\safe-buffer"
+  },
+  "370 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\string_decoder@1.1.1\\node_modules\\string_decoder",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@2.3.7\\node_modules\\string_decoder"
+  },
+  "371 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\util-deprecate@1.0.2\\node_modules\\util-deprecate",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@2.3.7\\node_modules\\util-deprecate"
+  },
+  "372 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\safe-buffer@5.1.2\\node_modules\\safe-buffer",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\string_decoder@1.1.1\\node_modules\\safe-buffer"
+  },
+  "373 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\glob@7.2.3\\node_modules\\glob",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\rimraf@2.7.1\\node_modules\\glob"
+  },
+  "374 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fs.realpath@1.0.0\\node_modules\\fs.realpath",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\glob@7.2.3\\node_modules\\fs.realpath"
+  },
+  "375 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inflight@1.0.6\\node_modules\\inflight",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\glob@7.2.3\\node_modules\\inflight"
+  },
+  "376 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inherits@2.0.4\\node_modules\\inherits",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\glob@7.2.3\\node_modules\\inherits"
+  },
+  "377 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\minimatch@3.1.2\\node_modules\\minimatch",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\glob@7.2.3\\node_modules\\minimatch"
+  },
+  "378 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\once@1.4.0\\node_modules\\once",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\glob@7.2.3\\node_modules\\once"
+  },
+  "379 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\path-is-absolute@1.0.1\\node_modules\\path-is-absolute",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\glob@7.2.3\\node_modules\\path-is-absolute"
+  },
+  "380 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\once@1.4.0\\node_modules\\once",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inflight@1.0.6\\node_modules\\once"
+  },
+  "381 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\wrappy@1.0.2\\node_modules\\wrappy",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inflight@1.0.6\\node_modules\\wrappy"
+  },
+  "382 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\block-stream@0.0.9\\node_modules\\block-stream",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar@2.2.2\\node_modules\\block-stream"
+  },
+  "383 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream@1.0.12\\node_modules\\fstream",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar@2.2.2\\node_modules\\fstream"
+  },
+  "384 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inherits@2.0.4\\node_modules\\inherits",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar@2.2.2\\node_modules\\inherits"
+  },
+  "385 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inherits@2.0.4\\node_modules\\inherits",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\block-stream@0.0.9\\node_modules\\inherits"
+  },
+  "386 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\rimraf@3.0.2\\node_modules\\rimraf",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tmp@0.2.1\\node_modules\\rimraf"
+  },
+  "387 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\glob@7.2.3\\node_modules\\glob",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\rimraf@3.0.2\\node_modules\\glob"
+  },
+  "388 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\builtins@1.0.3\\node_modules\\builtins",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\validate-npm-package-name@3.0.0\\node_modules\\builtins"
+  },
+  "389 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "390 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\color-name@1.1.4\\node_modules\\color-name"
+  },
+  "391 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "392 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\create-react-app@5.0.1\\node_modules\\create-react-app"
+  },
+  "393 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "394 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\color-convert@2.0.1\\node_modules\\color-convert"
+  },
+  "395 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "396 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\ansi-styles@4.3.0\\node_modules\\ansi-styles"
+  },
+  "397 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "398 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\has-flag@4.0.0\\node_modules\\has-flag"
+  },
+  "399 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "400 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\shebang-regex@3.0.0\\node_modules\\shebang-regex"
+  },
+  "401 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "402 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\shebang-command@2.0.0\\node_modules\\shebang-command"
+  },
+  "403 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "404 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\path-key@3.1.1\\node_modules\\path-key"
+  },
+  "405 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "406 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\supports-color@7.2.0\\node_modules\\supports-color"
+  },
+  "407 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\graceful-fs@4.2.10\\node_modules\\graceful-fs"
+  },
+  "408 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\universalify@2.0.0\\node_modules\\universalify"
+  },
+  "409 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\jsonfile@6.1.0\\node_modules\\jsonfile"
+  },
+  "410 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\buffer-from@0.1.2\\node_modules\\buffer-from"
+  },
+  "411 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "412 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\chalk@4.1.2\\node_modules\\chalk"
+  },
+  "413 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "414 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\commander@4.1.1\\node_modules\\commander"
+  },
+  "415 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\duplexer2@0.0.2\\node_modules\\duplexer2"
+  },
+  "416 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\hyperquest@2.1.3\\node_modules\\hyperquest"
+  },
+  "417 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "418 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\which@2.0.2\\node_modules\\which"
+  },
+  "419 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@1.1.14\\node_modules\\readable-stream"
+  },
+  "420 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "421 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\isexe@2.0.0\\node_modules\\isexe"
+  },
+  "422 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\core-util-is@1.0.3\\node_modules\\core-util-is"
+  },
+  "423 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "424 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\envinfo@7.8.1\\node_modules\\envinfo"
+  },
+  "425 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\isarray@0.0.1\\node_modules\\isarray"
+  },
+  "426 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\string_decoder@0.10.31\\node_modules\\string_decoder"
+  },
+  "427 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inherits@2.0.4\\node_modules\\inherits"
+  },
+  "428 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\through2@0.6.5\\node_modules\\through2"
+  },
+  "429 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\xtend@4.0.2\\node_modules\\xtend"
+  },
+  "430 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "431 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fs-extra@10.1.0\\node_modules\\fs-extra"
+  },
+  "432 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "433 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\cross-spawn@7.0.3\\node_modules\\cross-spawn"
+  },
+  "434 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/sisteransi/1.0.5",
+    "size": 2600,
+    "status": "started"
+  },
+  "435 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\kleur@3.0.3\\node_modules\\kleur"
+  },
+  "436 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@1.0.34\\node_modules\\readable-stream"
+  },
+  "437 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\lru-cache@6.0.0\\node_modules\\lru-cache"
+  },
+  "438 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\yallist@4.0.0\\node_modules\\yallist"
+  },
+  "439 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\prompts@2.4.2\\node_modules\\prompts"
+  },
+  "440 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\ms@2.0.0\\node_modules\\ms"
+  },
+  "441 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\semver@7.3.7\\node_modules\\semver"
+  },
+  "442 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\debug@2.6.9\\node_modules\\debug"
+  },
+  "443 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar-pack@3.4.1\\node_modules\\tar-pack"
+  },
+  "444 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream@1.0.12\\node_modules\\fstream"
+  },
+  "445 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\minimatch@3.1.2\\node_modules\\minimatch"
+  },
+  "446 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream-ignore@1.0.5\\node_modules\\fstream-ignore"
+  },
+  "447 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\brace-expansion@1.1.11\\node_modules\\brace-expansion"
+  },
+  "448 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\once@1.4.0\\node_modules\\once"
+  },
+  "449 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\mkdirp@0.5.6\\node_modules\\mkdirp"
+  },
+  "450 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\minimist@1.2.6\\node_modules\\minimist"
+  },
+  "451 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\wrappy@1.0.2\\node_modules\\wrappy"
+  },
+  "452 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\balanced-match@1.0.2\\node_modules\\balanced-match"
+  },
+  "453 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\concat-map@0.0.1\\node_modules\\concat-map"
+  },
+  "454 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\isarray@1.0.0\\node_modules\\isarray"
+  },
+  "455 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\process-nextick-args@2.0.1\\node_modules\\process-nextick-args"
+  },
+  "456 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\safe-buffer@5.1.2\\node_modules\\safe-buffer"
+  },
+  "457 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\util-deprecate@1.0.2\\node_modules\\util-deprecate"
+  },
+  "458 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\rimraf@2.7.1\\node_modules\\rimraf"
+  },
+  "459 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\string_decoder@1.1.1\\node_modules\\string_decoder"
+  },
+  "460 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@2.3.7\\node_modules\\readable-stream"
+  },
+  "461 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fs.realpath@1.0.0\\node_modules\\fs.realpath"
+  },
+  "462 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inflight@1.0.6\\node_modules\\inflight"
+  },
+  "463 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\glob@7.2.3\\node_modules\\glob"
+  },
+  "464 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\path-is-absolute@1.0.1\\node_modules\\path-is-absolute"
+  },
+  "465 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\block-stream@0.0.9\\node_modules\\block-stream"
+  },
+  "466 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\uid-number@0.0.6\\node_modules\\uid-number"
+  },
+  "467 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\rimraf@3.0.2\\node_modules\\rimraf"
+  },
+  "468 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/sisteransi/1.0.5",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "fetched"
+  },
+  "469 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tmp@0.2.1\\node_modules\\tmp"
+  },
+  "470 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\builtins@1.0.3\\node_modules\\builtins"
+  },
+  "471 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\validate-npm-package-name@3.0.0\\node_modules\\validate-npm-package-name"
+  },
+  "472 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar@2.2.2\\node_modules\\tar"
+  },
+  "473 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "status": "imported",
+    "to": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\sisteransi@1.0.5\\node_modules\\sisteransi"
+  },
+  "474 debug pnpm:stage": {
+    "prefix": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108",
+    "stage": "importing_done"
+  },
+  "475 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\create-react-app@5.0.1\\node_modules\\create-react-app",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\create-react-app"
+  },
+  "476 debug pnpm:root": {
+    "added": {
+      "dependencyType": "prod",
+      "id": "registry.npmjs.org/create-react-app/5.0.1",
+      "name": "create-react-app",
+      "realName": "create-react-app",
+      "version": "5.0.1"
+    },
+    "prefix": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108"
+  },
+  "477 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\chalk@4.1.2\\node_modules\\chalk",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\chalk"
+  },
+  "478 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\commander@4.1.1\\node_modules\\commander",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\commander"
+  },
+  "479 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\cross-spawn@7.0.3\\node_modules\\cross-spawn",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\cross-spawn"
+  },
+  "480 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\envinfo@7.8.1\\node_modules\\envinfo",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\envinfo"
+  },
+  "481 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fs-extra@10.1.0\\node_modules\\fs-extra",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\fs-extra"
+  },
+  "482 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\hyperquest@2.1.3\\node_modules\\hyperquest",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\hyperquest"
+  },
+  "483 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\prompts@2.4.2\\node_modules\\prompts",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\prompts"
+  },
+  "484 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\semver@7.3.7\\node_modules\\semver",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\semver"
+  },
+  "485 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar-pack@3.4.1\\node_modules\\tar-pack",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\tar-pack"
+  },
+  "486 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tmp@0.2.1\\node_modules\\tmp",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\tmp"
+  },
+  "487 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\validate-npm-package-name@3.0.0\\node_modules\\validate-npm-package-name",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\validate-npm-package-name"
+  },
+  "488 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\ansi-styles@4.3.0\\node_modules\\ansi-styles",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\ansi-styles"
+  },
+  "489 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\supports-color@7.2.0\\node_modules\\supports-color",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\supports-color"
+  },
+  "490 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\path-key@3.1.1\\node_modules\\path-key",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\path-key"
+  },
+  "491 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\shebang-command@2.0.0\\node_modules\\shebang-command",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\shebang-command"
+  },
+  "492 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\which@2.0.2\\node_modules\\which",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\which"
+  },
+  "493 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\graceful-fs@4.2.10\\node_modules\\graceful-fs",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\graceful-fs"
+  },
+  "494 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\jsonfile@6.1.0\\node_modules\\jsonfile",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\jsonfile"
+  },
+  "495 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\universalify@2.0.0\\node_modules\\universalify",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\universalify"
+  },
+  "496 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\buffer-from@0.1.2\\node_modules\\buffer-from",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\buffer-from"
+  },
+  "497 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\duplexer2@0.0.2\\node_modules\\duplexer2",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\duplexer2"
+  },
+  "498 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\through2@0.6.5\\node_modules\\through2",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\through2"
+  },
+  "499 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\kleur@3.0.3\\node_modules\\kleur",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\kleur"
+  },
+  "500 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\sisteransi@1.0.5\\node_modules\\sisteransi",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\sisteransi"
+  },
+  "501 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\lru-cache@6.0.0\\node_modules\\lru-cache",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\lru-cache"
+  },
+  "502 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\debug@2.6.9\\node_modules\\debug",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\debug"
+  },
+  "503 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream@1.0.12\\node_modules\\fstream",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\fstream"
+  },
+  "504 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fstream-ignore@1.0.5\\node_modules\\fstream-ignore",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\fstream-ignore"
+  },
+  "505 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\once@1.4.0\\node_modules\\once",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\once"
+  },
+  "506 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\readable-stream@2.3.7\\node_modules\\readable-stream",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\readable-stream"
+  },
+  "507 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\rimraf@2.7.1\\node_modules\\rimraf",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\rimraf"
+  },
+  "508 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\tar@2.2.2\\node_modules\\tar",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\tar"
+  },
+  "509 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\uid-number@0.0.6\\node_modules\\uid-number",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\uid-number"
+  },
+  "510 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\builtins@1.0.3\\node_modules\\builtins",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\builtins"
+  },
+  "511 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\color-convert@2.0.1\\node_modules\\color-convert",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\color-convert"
+  },
+  "512 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\ms@2.0.0\\node_modules\\ms",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\ms"
+  },
+  "513 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inherits@2.0.4\\node_modules\\inherits",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\inherits"
+  },
+  "514 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\minimatch@3.1.2\\node_modules\\minimatch",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\minimatch"
+  },
+  "515 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\mkdirp@0.5.6\\node_modules\\mkdirp",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\mkdirp"
+  },
+  "516 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\yallist@4.0.0\\node_modules\\yallist",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\yallist"
+  },
+  "517 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\wrappy@1.0.2\\node_modules\\wrappy",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\wrappy"
+  },
+  "518 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\core-util-is@1.0.3\\node_modules\\core-util-is",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\core-util-is"
+  },
+  "519 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\isarray@1.0.0\\node_modules\\isarray",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\isarray"
+  },
+  "520 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\process-nextick-args@2.0.1\\node_modules\\process-nextick-args",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\process-nextick-args"
+  },
+  "521 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\safe-buffer@5.1.2\\node_modules\\safe-buffer",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\safe-buffer"
+  },
+  "522 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\string_decoder@1.1.1\\node_modules\\string_decoder",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\string_decoder"
+  },
+  "523 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\util-deprecate@1.0.2\\node_modules\\util-deprecate",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\util-deprecate"
+  },
+  "524 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\glob@7.2.3\\node_modules\\glob",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\glob"
+  },
+  "525 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\shebang-regex@3.0.0\\node_modules\\shebang-regex",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\shebang-regex"
+  },
+  "526 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\has-flag@4.0.0\\node_modules\\has-flag",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\has-flag"
+  },
+  "527 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\block-stream@0.0.9\\node_modules\\block-stream",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\block-stream"
+  },
+  "528 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\xtend@4.0.2\\node_modules\\xtend",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\xtend"
+  },
+  "529 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\isexe@2.0.0\\node_modules\\isexe",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\isexe"
+  },
+  "530 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\color-name@1.1.4\\node_modules\\color-name",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\color-name"
+  },
+  "531 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\fs.realpath@1.0.0\\node_modules\\fs.realpath",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\fs.realpath"
+  },
+  "532 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\inflight@1.0.6\\node_modules\\inflight",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\inflight"
+  },
+  "533 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\path-is-absolute@1.0.1\\node_modules\\path-is-absolute",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\path-is-absolute"
+  },
+  "534 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\brace-expansion@1.1.11\\node_modules\\brace-expansion",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\brace-expansion"
+  },
+  "535 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\minimist@1.2.6\\node_modules\\minimist",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\minimist"
+  },
+  "536 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\balanced-match@1.0.2\\node_modules\\balanced-match",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\balanced-match"
+  },
+  "537 debug pnpm:link": {
+    "target": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\concat-map@0.0.1\\node_modules\\concat-map",
+    "link": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.pnpm\\node_modules\\concat-map"
+  },
+  "538 debug pnpm:summary": {
+    "prefix": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108"
+  },
+  "539 error pnpm": {
+    "shortMessage": "Command failed with exit code 1: D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.bin\\create-react-app.CMD packages/web",
+    "command": "D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.bin\\create-react-app.CMD packages/web",
+    "escapedCommand": "\"D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.bin\\create-react-app.CMD\" \"packages/web\"",
+    "exitCode": 1,
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 1: D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.bin\\create-react-app.CMD packages/web",
+      "stack": "pnpm: Command failed with exit code 1: D:\\.pnpm-store\\v3\\tmp\\dlx-14108\\node_modules\\.bin\\create-react-app.CMD packages/web\n    at makeError (C:\\Users\\jlouz\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpx.cjs:36979:17)\n    at handlePromise (C:\\Users\\jlouz\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpx.cjs:37550:33)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Object.handler [as dlx] (C:\\Users\\jlouz\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpx.cjs:170967:7)\n    at async C:\\Users\\jlouz\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpx.cjs:176499:21\n    at async run (C:\\Users\\jlouz\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpx.cjs:176473:34)\n    at async C:\\Users\\jlouz\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpx.cjs:176545:5"
+    }
+  }
+}
